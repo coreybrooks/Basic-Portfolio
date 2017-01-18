@@ -1,0 +1,32 @@
+* {box-sizing: border-box;: 
+}
+
+body {
+	width: 960px;
+	background: #00FFFF
+}
+
+nav {
+	background: #ebebeb
+}
+h1 {
+	background: #4B4082
+}
+section {
+	position: relative;
+	float: left;
+	width: 650px;
+	background: #FF0000;
+}
+
+aside {
+	float: right;
+	width: 270px;
+	background: #666;
+}
+
+footer {
+	clear: both;
+	background: #666666;
+	text-align: center;
+}
