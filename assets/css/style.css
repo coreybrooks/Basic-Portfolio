@@ -2,11 +2,11 @@
 }
 
 body {
-	font-family: "Georgia", "Times", "Times New Roman", "serif";
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url(../images/skulls.png);
 }
 
 .wrapper {
-	background-image: url(../images/ignasi_pattern_s.png);
 	margin: 0 auto 0 auto;
 	width: 960px;
 }
@@ -14,49 +14,90 @@ body {
 #navbar {
 	position: relative;
 	background: #ffffff;
-	width: 960px;
-	height: 70px;
+	width: 100%;
+	height: 90px;
 	border-bottom: 2px solid #cccccc;
+	margin-bottom: 40px;
 }
 
 #heading1 {
+	font-family: "Georgia", Times, "Times New Roman", serif;
 	position: absolute;
-	left: 12%;
+	left: 362px;
 	background: #4aaaa5;
 	color: white;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
-    padding: 20px;
+    padding: 30px;
+    height: 90px;
 }
 
 #navbuttons {
 	position: absolute;
-	left: 62%;
+	left: 68%;
 	bottom: 2px;
 	height: 70px;
-	padding: 10px;
 	background: #ffffff;
 	color: #cccccc;
 }
 
-section {
+.mainbody {
+	position: relative;
+	padding: 30px;
+	background: #ffffff;
 	float: left;
 	width: 650px;
-	background: #ffffff
 	color: #777777;
+	margin-bottom: 40px;
 }
 
-aside {
+#img1 {
+	float: left;
+	width: 200px;
+	height: 150px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+}
+
+#header2 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	background: white;
+	color: #4aaaa5;
+	font-size: 28px;
+	font-weight: bold;
+	border-bottom: 3px solid #cccccc;
+	height: 70px;
+	margin-bottom: 30px;
+}
+
+.sidebar {
+	text-align: center;
 	float: right;
 	width: 270px;
-	background: #666;
+	height: 200px;
+	background: #ffffff;
+	padding: 30px;
 }
 
-footer {
-	padding: 30px;
+#header3 {
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	background: white;
+	color: #4aaaa5;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid #cccccc;
+	height: 45px;
+	margin-bottom: 20px;
+}
+
+#footer {
+	height: 100px;
 	clear: both;
 	background: #666666;
 	text-align: center;
+	color: #cccccc;
+	font-size: 12px;
+	border-top: 10px solid #4aaaa5;
 }
 
 /*	font-family: "Georgia", "Times", "Times New Roman", "serif";
