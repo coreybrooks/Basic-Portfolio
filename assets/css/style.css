@@ -1,22 +1,49 @@
-* {box-sizing: border-box;: 
+* {box-sizing: border-box;
 }
 
 body {
-	width: 960px;
-	background: #00FFFF
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
 
-nav {
-	background: #ebebeb
+.wrapper {
+	background-image: url(../images/ignasi_pattern_s.png);
+	margin: 0 auto 0 auto;
+	width: 960px;
 }
-h1 {
-	background: #4B4082
-}
-section {
+
+#navbar {
 	position: relative;
+	background: #ffffff;
+	width: 960px;
+	height: 70px;
+	border-bottom: 2px solid #cccccc;
+}
+
+#heading1 {
+	position: absolute;
+	left: 12%;
+	background: #4aaaa5;
+	color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#navbuttons {
+	position: absolute;
+	left: 62%;
+	bottom: 2px;
+	height: 70px;
+	padding: 10px;
+	background: #ffffff;
+	color: #cccccc;
+}
+
+section {
 	float: left;
 	width: 650px;
-	background: #FF0000;
+	background: #ffffff
+	color: #777777;
 }
 
 aside {
@@ -26,7 +53,11 @@ aside {
 }
 
 footer {
+	padding: 30px;
 	clear: both;
 	background: #666666;
 	text-align: center;
 }
+
+/*	font-family: "Georgia", "Times", "Times New Roman", "serif";
+*/
