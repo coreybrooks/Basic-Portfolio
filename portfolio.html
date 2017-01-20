@@ -1,41 +1,47 @@
-   <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en-us">
 <head>
-	<title>Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+   <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
 
-   <nav>
-   	  <h1>Corey Brooks</h1>
-      <a href="">About</a>
-      <a href="">Portfolio</a>
-      <a href="">Contact</a>
+    <nav id="navbar">
+           <h1 id="heading1">Corey Brooks</h1>
+           <div id="navbuttons">
+           <br>
+            <a href="" class="navlink">About</a>
+            <a href="" class="navlink">Portfolio</a>
+            <a href="" class="navlink">Contact</a>
+           </div> 
    </nav>
-
+ <div class="wrapper">   
 <!--Portfolio picture section -->
-	<section id="portfolio-images">
-      <h1>Portfolio</h1>
-      <img src="http://lorempixel.com/400/200/" alt="oops">
-      <img src="http://lorempixel.com/400/200/" alt="oops">
-      <img src="http://lorempixel.com/400/200/" alt="oops">
-      <img src="http://lorempixel.com/400/200/" alt="oops">
-      <img src="http://lorempixel.com/400/200/" alt="oops">
+   <section class="portfolio-images-sec">
+      <h1 id="portfolio-heading">Portfolio</h1>
+      <img src="assets/images/lorem1.jpg" alt="oops" class="portfolio-images-odd">
+      <img src="assets/images/lorem2.jpg" alt="oops" class="portfolio-images-even">
+      <img src="assets/images/lorem3.jpg" alt="oops" class="portfolio-images-odd">
+      <img src="assets/images/lorem4.jpg" alt="oops" class="portfolio-images-even">
+      <img src="assets/images/lorem5.jpg" alt="oops" class="portfolio-images-odd">
    </section>
 
-   <aside>
-   	   <h3>Connect With Me</h3>
-   	   <a href="github.com"><img src="assets/images/1484725773_github.svg" alt="GitHub" width="30" height="30"></a>
-   	   <a href="linkedin.com"><img src="assets/images/1484725828_square-linkedin.svg" alt="LinkedIn" width="30" height="30"></a>
-   	   <a href="stackedoverflow.com"><img src="assets/images/1484725875_stackoverflow-square-social-media.svg" alt="Stacked Overflow" width="30" height="30"></a>
-   </aside>
 
-   <footer>
-   	   &reg;	Copyright 2017 Corey Brooks
-   </footer>
+      <aside class="sidebar">
+            <h3 id="header3">Connect with Me</h3>
+            <a href="http://github.com"><img src="assets/images/1484725773_github.svg" alt="GitHub" width="65" height="65"></a>
+            <a href="http://linkedin.com"><img src="assets/images/1484725828_square-linkedin.svg" alt="LinkedIn" width="65" height="65"></a>
+            <a href="http://stackoverflow.com"><img src="assets/images/1484725875_stackoverflow-square-social-media.svg" alt="Stack Overflow" width="65" height="65"></a>
+      </aside>
+  </div> 
+      <footer id="footer">
+      <br><br><br>
+           <p>&reg;Copyright 2017 Corey Brooks</p>
+      </footer>
 </body>
 </html>
-
 
  
