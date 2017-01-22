@@ -8,15 +8,28 @@ body {
 	background-image: url(../images/cheap_diagonal_fabric.png);
 }
 
+ul {
+	width: 200px;
+    margin:0px;
+    list-style-type:none;
+    padding:5px 0px 5px 0px;
+ }
 
-a:link { color: black; }
-a:visited { color: gray; }
-a:hover { color: pink; }
-a:active { color: yellow; }
+li {width: 100%;
+    display:inline;
+    padding: 5px 0px 5px 5px;
+}
+
+
+.navlink:link { color: black; }
+.navlink:visited { color: gray; }
+.navlink:hover { color: pink; }
+.navlink:active { color: yellow; }
 
 .navlink {
 	font-family: "Georgia", Times, "Times New Roman", serif;
 	color: #666666;
+	text-decoration: none;
      
 }
 
@@ -207,7 +220,7 @@ p:hover {
 }
 
 .portfolio-images-odd:hover {
-  outline: 5px solid red;
+  outline: 2px solid blue;
   outline-offset: 10px;
   -ms-transform: rotate(-10deg);
   -webkit-transform: rotate(-10deg);
@@ -223,7 +236,7 @@ p:hover {
 }
 
 .portfolio-images-even:hover {
-  outline: 5px solid red;
+  outline: 2px solid blue;
   outline-offset: 10px;
   -ms-transform: rotate(-10deg);
   -webkit-transform: rotate(-10deg);
